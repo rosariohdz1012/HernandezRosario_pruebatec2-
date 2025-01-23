@@ -6,11 +6,11 @@ Se creo la aplicación web  gestion la cual se integra de 4 paquetes con su corr
 En el paquete de persistencia estan Jpa que el crud que se genera y pasa a la persistenciaControladora 
 
 Al ingresar a la aplicacion esta el login que es poner tu usuario  < hernandezvillegasm12@gmail.com > y la contraseña < 12345 >, al ingresar los datos correctos se dirige al panel el cual tiene Cita, Tramite y Ciudadano y nosotros podemos escoger cualquiera de esas 3 opciones al ingresar en: 
-##### Ciudadano los datos que pide es nombre, apellido paterno, apellido materno, genero y el numero de telefono, para despues poder almacenarlos. 
-##### Tramite los datos son 2 que es nombre del tramite y ya la descripcion que registra esos datos. 
-##### Cita los datos a pedir es fecha y hora de la cita, ademas de seleccionar que tramite se quiere realizar y el nombre del ciudadano,  estado que es ya atendido o en espera y por ultimo el genero, tambien de las opciones editar y eliminar.   
--La base de datos la ingrese en la carpeta de turnerobd en el mismo proyecto. 
--Tambien el diagrama se encuentra en el mismo proyeco.  
+- Ciudadano los datos que pide es nombre, apellido paterno, apellido materno, genero y el numero de telefono, para despues poder almacenarlos. 
+- Tramite los datos son 2 que es nombre del tramite y ya la descripcion que registra esos datos. 
+- Cita los datos a pedir es fecha y hora de la cita, ademas de seleccionar que tramite se quiere realizar y el nombre del ciudadano,  estado que es ya atendido o en espera y por ultimo el genero, tambien de las opciones editar y eliminar.   
+- La base de datos la ingrese en la carpeta de turnerobd en el mismo proyecto. 
+- Tambien el diagrama se encuentra en el mismo proyeco.  
 
 ### Cuestiones Tecnicas 
 Tuve problema al realizar el filtrado con el de fecha por el usuario ya que al realizar una colección con set no me dejaba visualizar la lista del filtrado seleccionado.  
@@ -18,12 +18,12 @@ El filtrado por el momento fue lo mas complicado por que no realizaba la accion 
 Solo me dejo realizar unos filtros pero por id. 
 
 Las tecnologias que se utilizaron fueron: 
--JDK 17 
--JAVA Persistente Api (JPA) 
--NetBeans 17 
--MySql SGBD 
--Navegador 
--Sotfware Modelas Ideas 
+- JDK 17 
+- JAVA Persistente Api (JPA) 
+- NetBeans 17 
+- MySql SGBD 
+- Navegador 
+- Sotfware Modelas Ideas 
 
 ### Supuestos 
 Se manejo por paquetes ya que es mas legible el codigo para nosotros que nos encontramos realizando el codigo, para la controladora de logica se implemeto un paquete y meter todas las controladoras de las entidades, del paquete de persistencia ademas de tener los Jpa controlers, se agrego el paquete de controladoras y asi aunque exiten muchos paquetes y demasiadas clases es mas facil de corregir los errores en caso de que existan otorgando pequeñas responsabilidades a cada una de las clases obteniendo el codigo mas legible. 
