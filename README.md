@@ -27,8 +27,7 @@ Las tecnologias que se utilizaron fueron:
 
 ### Supuestos 
 Se manejo por paquetes ya que es mas legible el codigo para nosotros que nos encontramos realizando el codigo, para la controladora de logica se implemeto un paquete y meter todas las controladoras de las entidades, del paquete de persistencia ademas de tener los Jpa controlers, se agrego el paquete de controladoras y asi aunque exiten muchos paquetes y demasiadas clases es mas facil de corregir los errores en caso de que existan otorgando pequeñas responsabilidades a cada una de las clases obteniendo el codigo mas legible. 
-En los Servlets maneje  solo el nombre especifico sin agregar el Serv para que la url se veas mas bonita y descriptiva 
-En el readme maneje todo mi documento sin tildes al igual que el codigo en la base de datos ya que en ella generaba errores, no se si este bien implementado o que pasa, hago 
-El programa tiene la capacidad de verificar si no existe un usuario y si no le ingresas un usuario o realizas el inicio de sesion no entrara a ningun lado hasta que tenga asignado un usuario.
-mencion ya que en la primera prueba tengo esa sugerencia de tildes.  
-Al realizar el readme me voy cuenta que en algunas palabras se integran las tildes.
+En los Servlets maneje  solo el nombre especifico sin agregar el Serv para que la url se veas mas bonita y descriptiva.
+En el readme maneje todo mi documento sin tildes al igual que el codigo en la base de datos ya que en ella generaba errores, no se si este bien implementado o que pasa hago mencion ya que en la primera prueba tengo esa sugerencia de tildes.
+El programa tiene la capacidad de verificar si no existe un usuario y si no le ingresas un usuario o realizas el inicio de sesion no entrara a ningun lado hasta que tenga asignado un usuario. La app tiene la capacidad de solicitar el registro de un usuario si no tiene uno.
+ Al realizar el readme me voy cuenta que en algunas palabras se integran las tildes.
